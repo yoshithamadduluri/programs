@@ -1,0 +1,16 @@
+class MathUtils {
+    static int square(int x) {
+        return x * x;
+    }
+
+    static int cube(int x) {
+        return x * x * x;
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Square of 3: " + MathUtils.square(3));
+        System.out.println("Cube of 3: " + MathUtils.cube(3));
+    }
+}
