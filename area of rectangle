@@ -1,0 +1,28 @@
+class Rectangle {
+    int length;
+    int breadth;
+
+    Rectangle() {
+        length = 10;
+        breadth = 5;
+    }
+
+    Rectangle(int l, int b) {
+        length = l;
+        breadth = b;
+    }
+
+    int area() {
+        return length * breadth;
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Rectangle rect1 = new Rectangle();
+        Rectangle rect2 = new Rectangle(20, 15);
+
+        System.out.println("Area of rect1: " + rect1.area());
+        System.out.println("Area of rect2: " + rect2.area());
+    }
+}
