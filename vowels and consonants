@@ -1,0 +1,39 @@
+public class ak {
+    public static void main(String[] args) {
+        // Directly assign a string instead of taking input from the user
+        String name = "OpenAI";
+        int len = name.length();
+        char a[] = new char[len];
+        char vow[] = new char[len];
+        char con[] = new char[len];
+        int v = 0, c = 0;
+
+        // Loop through each character of the string
+        for (int i = 0; i < len; i++) {
+            a[i] = name.charAt(i);
+            // Check if the character is a vowel
+            if (a[i] == 'a' || a[i] == 'e' || a[i] == 'i' || a[i] == 'o' || a[i] == 'u' ||
+                a[i] == 'A' || a[i] == 'E' || a[i] == 'I' || a[i] == 'O' || a[i] == 'U') {
+                vow[v] = a[i];
+                v++;
+            } 
+            // If not a vowel, it is a consonant
+            else {
+                con[c] = a[i];
+                c++;
+            }
+        }
+
+        // Print the consonants
+        System.out.print("Consonants: ");
+        for (int i = 0; i < c; i++) {
+            System.out.print(con[i]);
+        }
+
+        // Print the vowels
+        System.out.print("\nVowels: ");
+        for (int j = 0; j < v; j++) {
+            System.out.print(vow[j]);
+        }
+    }
+}
