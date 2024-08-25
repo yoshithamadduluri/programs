@@ -1,0 +1,11 @@
+public class Main {
+    public static void main(String[] args) {
+        int m = 1; // Replace with your desired value
+        int n = 10; // Replace with your desired value
+        int k = 2; // Replace with your desired value
+        
+        for (int i = m; i <= n; i += k + 1) {
+            System.out.print(i + " ");
+        }
+    }
+}
