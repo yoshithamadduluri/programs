@@ -1,0 +1,7 @@
+public class NameLength {
+    public static void main(String[] args) {
+        String name = "yoshitha";
+        int length = name.length();
+        System.out.println("The length of your name is: " + length);
+     }
+}
