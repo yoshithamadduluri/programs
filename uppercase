@@ -1,0 +1,7 @@
+class Uppercase {
+    public static void main(String[] args) {
+        String name = "jayasree";
+        String UpperCase= name.toUpperCase();
+        System.out.println("Uppercase of name: " + UpperCase);
+    }
+}
