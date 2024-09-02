@@ -1,0 +1,15 @@
+public class EnhancedForLoopExample {
+    public static void main(String[] args) {
+        int[] numbers = {1, 2, 3, 4, 5};
+
+        // Traditional for-loop
+        for (int i = 0; i < numbers.length; i++) {
+            System.out.println(numbers[i]);
+        }
+
+        // Enhanced for-loop (Java 5)
+        for (int number : numbers) {
+            System.out.println(number);
+        }
+    }
+}
