@@ -1,0 +1,16 @@
+import java.util.ArrayList;
+import java.util.List;
+
+public class AutoboxingExample {
+    public static void main(String[] args) {
+        List<Integer> numbers = new ArrayList<>();
+
+        // Autoboxing: automatically converts int to Integer
+        numbers.add(10);
+
+        // Unboxing: automatically converts Integer to int
+        int num = numbers.get(0);
+
+        System.out.println(num);
+    }
+}
