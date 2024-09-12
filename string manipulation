@@ -1,0 +1,21 @@
+public class StringManipulation {
+    public static void main(String[] args) {
+        String original = "Hello, Java!";
+        
+        // Reverse the string
+        String reversed = new StringBuilder(original).reverse().toString();
+        
+        // Convert to uppercase
+        String uppercase = original.toUpperCase();
+        
+        // Find a substring
+        int index = original.indexOf("Java");
+        String substring = (index != -1) ? original.substring(index) : "Not found";
+        
+        // Display results
+        System.out.println("Original String: " + original);
+        System.out.println("Reversed String: " + reversed);
+        System.out.println("Uppercase String: " + uppercase);
+        System.out.println("Substring 'Java': " + substring);
+    }
+}
