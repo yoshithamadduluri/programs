@@ -1,0 +1,14 @@
+FunctionalInterface
+interface Operation {
+    int execute(int a, int b);
+}
+
+public class LambdaExample {
+    public static void main(String[] args) {
+        Operation add = (a, b) -> a + b;
+        Operation multiply = (a, b) -> a * b;
+
+        System.out.println("Addition: " + add.execute(5, 3));
+        System.out.println("Multiplication: " + multiply.execute(5, 3));
+    }
+}
