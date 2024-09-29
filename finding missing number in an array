@@ -1,0 +1,14 @@
+public class MissingNumber {
+    public static int findMissing(int[] arr, int n) {
+        int total = (n * (n + 1)) / 2;
+        for (int i : arr) {
+            total -= i;
+        }
+        return total;
+    }
+
+    public static void main(String[] args) {
+        int[] arr = {1, 2, 3, 5};
+        System.out.println(findMissing(arr, 5));  // Output: 4
+    }
+}
