@@ -1,0 +1,13 @@
+public class VotingEligibility {
+    public static void main(String[] args) {
+        int age = 16; // Assign the age directly
+
+        if (age > 18) {
+            System.out.println("You are eligible to vote.");
+        } else if (age <= 0) {
+            System.out.println("Enter the age correctly.");
+        } else {
+            System.out.println("You are allowed to vote after " + (18 - age) + " years.");
+        }
+    }
+}
