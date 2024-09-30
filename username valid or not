@@ -1,0 +1,12 @@
+public class UserNameValidation {
+    public static void main(String[] args) {
+        String s1 = "user1"; // Assign first username
+        String s2 = "user1"; // Assign second username for comparison
+
+        if (s1.equals(s2)) { // Use equals() method for string comparison
+            System.out.println("User name valid");
+        } else {
+            System.out.println("User name Invalid");
+        }
+    }
+}
