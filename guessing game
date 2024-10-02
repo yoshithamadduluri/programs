@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class GuessingGame {
+  public static void main(String[] args) {
+    Scanner scanner = new Scanner(System.in);
+    int numberToGuess = 42;
+    System.out.println("Guess a number between 1 and 100");
+    int guess = scanner.nextInt();
+    if (guess == numberToGuess) {
+      System.out.println("You won!");
+    } else {
+      System.out.println("Try again!");
+    }
+  }
+}
+
+
