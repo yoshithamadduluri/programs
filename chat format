@@ -1,0 +1,13 @@
+import java.util.Scanner;
+
+public class Chatbot {
+  public static void main(String[] args) {
+    Scanner scanner = new Scanner(System.in);
+    System.out.println("Hello! What's your name?");
+    String name = scanner.nextLine();
+    System.out.println("Hi, " + name + "! How are you today?");
+    String response = scanner.nextLine();
+    System.out.println("That's great to hear!");
+  }
+}
+
