@@ -1,0 +1,13 @@
+public class Main {
+    public static void main(String[] args) {
+        char c = '*'; // Initialize the character to be printed
+        int n = 5; // Initialize the number of lines
+
+        for (int i = 1; i <= n; i++) {
+            for (int j = 1; j <= i; j++) {
+                System.out.print(c);
+            }
+            System.out.println();
+        }
+    }
+}
