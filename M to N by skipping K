@@ -1,0 +1,11 @@
+public class Main {
+    public static void main(String[] args) {
+        int m = 1; // Initialize m with any value you want
+        int n = 10; // Initialize n with any value you want
+        int k = 2; // Initialize k with any value you want
+
+        for (int i = m; i <= n; i = i + k + 1) {
+            System.out.print(i + " ");
+        }
+    }
+}
