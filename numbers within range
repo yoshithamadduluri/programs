@@ -1,0 +1,11 @@
+public class Main {
+    public static void main(String[] args) {
+        int number = 15;
+
+        if (number >= 10 && number <= 20) {
+            System.out.println("The number is within the range.");
+        } else {
+            System.out.println("The number is out of the range.");
+        }
+    }
+}
